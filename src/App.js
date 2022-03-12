@@ -15,6 +15,9 @@ function App() {
           <Route path='/users' element={<List />} />
           <Route path='/users/new' element={<New />} />
           <Route path='/users/:userId' element={<Single />} />
+          <Route path='/products' element={<List />} />
+          <Route path='/products/new' element={<New />} />
+          <Route path='/products/:productId' element={<Single />} />
         </Routes>
       </BrowserRouter>
     </div>
