@@ -50,8 +50,8 @@ const Sidebar = () => {
             <InsertChartIcon className='icon' />
             <span>Stats</span>
           </li>
-          <NotificationsNoneIcon className='icon' />
           <li>
+            <NotificationsNoneIcon className='icon' />
             <span>Notifications</span>
           </li>
           <p className='title'>SERVICE</p>
